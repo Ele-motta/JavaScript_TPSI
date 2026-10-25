@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu e operazioni</title>
+</head>
+<body>
+    <h1>Menu operazioni</h1>
+    <label for="menu">scegli un operando</label>
+    <select id="menu">
+        <option value="">seleziona</option>
+        <option value="somma">somma</option>
+        <option value="sottrazione">sottrazione</option>
+        <option value="moltiplicazione">moltiplicazio</option>
+        <option value="divisione">divisione</option>
+    </select>
+
+    <br><br>
+
+    <input type="number" id="numero1" placeholder="primo numero">
+    <input type="number" id="numero2" placeholder="secondo numero">
+
+    <br><br>
+
+    <button onclick="calcola()">Calcola</button>
+
+    <p id="risultato"></p>
+
+    <script src="operations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

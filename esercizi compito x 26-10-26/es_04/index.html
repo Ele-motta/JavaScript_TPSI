@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Validazione operazioni</title>
+</head>
+<body>
+
+    <h1>Menu operazioni</h1>
+
+    <select id="menu">
+        <option value="">Seleziona un'operazione</option>
+        <option value="+">Somma</option>
+        <option value="-">Sottrazione</option>
+        <option value="*">Moltiplicazione</option>
+        <option value="/">Divisione</option>
+        <option value="%">Resto</option>
+        <option value="maggiore">Maggiore</option>
+        <option value="media">Media</option>
+        <option value="potenza">Potenza</option>
+        <option value="?">Operazione sconosciuta</option>
+    </select>
+
+    <br><br>
+
+    <input type="number" id="numero1" placeholder="Primo numero">
+    <input type="number" id="numero2" placeholder="Secondo numero">
+
+    <br><br>
+
+    <button onclick="calcola()">Calcola</button>
+
+    <p id="risultato"></p>
+    <p id="messaggio"></p>
+
+    <script src="operations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
